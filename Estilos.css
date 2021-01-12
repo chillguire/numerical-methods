@@ -1,0 +1,213 @@
+*{
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: rgb(242, 242, 242);
+}
+
+
+/*-------------------------------------------------*/
+/*---------------ESTILOS DEL HEADER----------------*/
+/*-------------------------------------------------*/
+
+
+.pseudoheader{
+	border-top: 5px solid  #86dc5b;
+	width: 100%;
+	background: rgb(255, 255, 255);
+	margin-bottom: 30px;
+	height: 65px;
+}
+.header{
+	height: 65px;
+	border-top: 5px solid  #86dc5b;
+	width: 100%;
+	background: rgb(255, 255, 255);
+	-webkit-box-shadow: 0px 0.5px 1px #676767;
+	-moz-box-shadow: 0px 0.5px 1px #676767;
+	box-shadow: 0px 0.5px 1px #676767;
+	margin-bottom: 30px;
+	position: fixed;
+	top: 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.header-buttons{
+	margin: 0px 20px;
+	display: inline;
+	cursor: pointer;
+}
+.header-buttons:hover .back{
+	fill: #86dc5b;
+	transition: all ease 0.3s;
+}
+.header-buttons:not(:hover) .back{
+	fill: #bfbfbf;
+	transition: all ease 0.3s;
+}
+.titulo{
+	font-size: 25px;
+	font-weight: 300;
+}
+
+/*-------------------------------------------------*/
+/*-----------ESTILOS DE CONTENIDO BASICO-----------*/
+/*-------------------------------------------------*/
+
+.formulario{
+	background: #fff;
+	width: 75%;
+	max-width: 1500px;
+	border-radius: 10px;
+	border:1px solid #abb2b7;
+	margin: 50px auto 50px auto;
+	padding: 20px;
+}
+.entrada{
+	border:1px solid #abb2b7;
+	border-radius: 5px;
+	width: 60%;
+	max-width: 350px;
+	margin: 15px auto 15px auto;
+	text-align: center;
+	padding: 0px 0px 0px 10px;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+}
+.entrada:hover{
+	border: 1px solid #5da538;
+}
+
+.texto-entrada{
+	font-size: 12px;
+	padding: 0px 5px;
+	color: #86dc5b;
+}
+.decoracion{
+	font-size: 15px;
+	font-weight: 200;
+	display: inline;
+	padding: 0 5px;
+	margin: 15px;
+}
+
+/*-------------------------------------------------*/
+/*---------------ESTILOS DE CAMPOS-----------------*/
+/*-------------------------------------------------*/
+
+
+.campo{
+	max-width: 340px;
+	padding: 15px;
+	display: block;
+	color: #000000;
+	border: none;
+	background: none;
+	font-size: 16px;
+	font-weight: 200;
+	display: inline;
+}
+
+.campo:focus{
+	outline: none;
+}
+
+/*-------------------------------------------------*/
+/*-----------ESTILOS DE BOTÓN DE GUARDAR-----------*/
+/*-------------------------------------------------*/
+
+.guardar{
+	width: 150px;
+	height: 50px;
+	background: #86dc5b;
+	font-size: 20px;
+	color: rgb(230, 230, 230);
+	border: none;
+	font-weight: 900;
+	cursor: pointer;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	display: block;
+	border-radius: 7.5px;
+}
+
+.guardar:hover{
+	background: #5ead36;
+}
+
+.guardar:active{
+	background: #3d7721;
+}
+
+.blanco{
+	color: #fff;
+}
+
+/*-------------------------------------------------*/
+/*----------------ESTILOS DE MENU PRINCIPAL--------*/
+/*-------------------------------------------------*/
+
+.opciones{
+	margin: auto;
+	width: 90%;
+	max-width: 2000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.opcion{
+	width: 200px;
+	background: #86dc5b;
+	margin: 15px;
+	padding: 15px;
+	border-radius: 5px;
+}
+.opcion:hover{
+	background: #4b8e2a;
+	transition: all 0.2s;
+}
+
+.img-eleccion{
+	width: 100px;
+	display: block;
+	margin: auto;
+}
+.descripcion{
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 200;
+	font-size: 20px;
+	margin: 15px;
+}
+a{
+	text-decoration: none;
+}
+
+.general,tr,th{
+	width: 80%;
+	border: #86dc5b 1px solid;
+	border-collapse: collapse;
+	margin: 40px auto;
+	font-size: 15px;
+	padding: 7.5px;
+	font-weight: 300;
+}
+.especial{
+	background: #6ec145;
+	color: #ffffff;
+}
+
+tr:hover{
+	background: #86dc5b;
+	transition: all 0.2s;
+	color: #ffffff;
+}
